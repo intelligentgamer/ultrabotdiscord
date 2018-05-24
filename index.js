@@ -12,7 +12,7 @@ client.on(`message`, message => {
 });
 
 client.on("ready", function() {
-    client.user.setActivity("ub!!", {type:"PLAYING"})
+    client.user.setActivity("ub!!|cree par Jean0", {type:"PLAYING"})
     console.log("Bot Ready")
 
     
