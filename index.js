@@ -10,7 +10,12 @@ client.on(`message`, message => {
         console.log("Le bot dit bonjour et Je te surveille XDDD");
     }
 });
-
+client.on('message', message => {
+    if(message.content === "ub!!Ping"){
+       message.reply("pong :ping_pong: ");
+       console.log('Le bot dit Pong !');
+    }       
+})
 client.on("ready", function() {
     client.user.setActivity("ub!!|cree par Jean0", {type:"PLAYING"})
     console.log("Bot Ready")
