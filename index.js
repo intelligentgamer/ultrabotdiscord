@@ -8,6 +8,7 @@ client.on(`message`, message => {
     if(message.content === "Bonjour tu fait quoi"){
         message.reply("salut je m'appelle ultrabot et Je te surveille XDDD");
         console.log("Le bot dit bonjour et Je te surveille XDDD");
+        
     if(message.content === "ub!!Ping")
        message.reply("pong :ping_pong: ")
        console.log('Le bot dit pong !') 
