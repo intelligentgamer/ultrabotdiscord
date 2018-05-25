@@ -5,9 +5,9 @@ client.login(process.env.TOKEN)
 
 client.on(`message`, message => {
     
-    if(message.content === "Bonjour"){
-        message.reply("salut je m'appelle ultrabot");
-        console.log("Le bot dit bonjour");
+    if(message.content === "Bonjour tu fait quoi"){
+        message.reply("salut je m'appelle ultrabot et Je te surveille XDDD");
+        console.log("Le bot dit bonjour et Je te surveille XDDD");
     }
 });
 
